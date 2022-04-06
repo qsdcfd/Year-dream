@@ -28,4 +28,10 @@
 
 6. 조건에 맞게 DB에서 데이터 값 추출하기
 
+- and
+
+- $or 
+
+- $gte
+
 [CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
