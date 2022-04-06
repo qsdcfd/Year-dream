@@ -14,12 +14,12 @@
 
 1. MongoDB회원가입하기
 
-MongoDB의 Altas를 활용하여 Databse 만들었습니다.
+   MongoDB의 Altas를 활용하여 Databse 만들었습니다.
 
 2. DB의 링크를 가져와서 Python으로 설정
 
-mongo_path = "링크"
-
+   mongo_path = "링크"
+ 
 3. 라이브러리 호출 및 변수명 할당
 
 4. DB생성
