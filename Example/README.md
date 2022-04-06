@@ -34,4 +34,6 @@
 
 - $gte
 
+7. API를 불러와서 json파일 형식화 시도
+
 [CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
