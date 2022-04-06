@@ -44,20 +44,20 @@
 
 1. routing실습
 
-데코레이션을 활용하여서 route() 설정
+   데코레이션을 활용하여서 route() 설정
 
-함수 구문을 활용하여 지정 주소에 문구 삽입
+   함수 구문을 활용하여 지정 주소에 문구 삽입
 
-URI타고 들아가서 문구 확인
+   URI타고 들아가서 문구 확인
 
-외부 API를 활용하여 json파일 가져오기
+   외부 API를 활용하여 json파일 가져오기
 
-추가적으로 이름을 삽입한 후에 그 이름과 함께 출력
+   추가적으로 이름을 삽입한 후에 그 이름과 함께 출력
 
 2. rendering실습 
 
-html문서를 미리 작성 후에 연동 시키기
+   html문서를 미리 작성 후에 연동 시키기
 
-메인 페이지에 html문서 내용 띄우기
+   메인 페이지에 html문서 내용 띄우기
 
 [CODE](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
