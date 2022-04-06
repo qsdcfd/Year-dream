@@ -34,6 +34,10 @@
 
 - $gte
 
-7. API를 불러와서 json파일 형식화 시도
+7. API를 불러와서 text형태로 부르기 혹은 json파일 형태로 부르기
 
 [CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
+
+<br>
+
+### 2. Flask 실습
