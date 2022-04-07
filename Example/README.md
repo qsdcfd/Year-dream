@@ -10,7 +10,7 @@
 이제 그 코드에 관해서 이야기하겠습니다.
 
 
-### CODE
+### [CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
 
 1. MongoDB회원가입하기
 
@@ -36,11 +36,11 @@
 
 7. API를 불러와서 text형태로 부르기 혹은 json파일 형태로 부르기
 
-[CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
+
 
 <br>
 
-### 2. Flask 실습
+### 2. [Flask 실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
 
 1. routing실습
 
@@ -60,4 +60,3 @@
 
    메인 페이지에 html문서 내용 띄우기
 
-[CODE](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
