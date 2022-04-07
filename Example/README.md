@@ -1,5 +1,5 @@
 
-### 1. NOSQL의 대표 데이터 베이스인 MongoDB를 실습했습니다.
+### 1. [NOSQL의 대표 데이터 베이스인 MongoDB를 실습](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
 
 보통 우리는 SQL을 통해서 데이터베이스에 접근 후에 데이터 수정 및 추출을 하는 것이 익숙할 것입니다.
 
@@ -10,7 +10,7 @@
 이제 그 코드에 관해서 이야기하겠습니다.
 
 
-### [CODE](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/MongoDB)
+### CODE
 
 1. MongoDB회원가입하기
 
