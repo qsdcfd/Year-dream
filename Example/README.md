@@ -42,7 +42,7 @@
 
 ### 2. Flask 실습
 
-1. 정적routing실습[https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main%20(1).py]
+1. [정적routing실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main%20(1).py)
 
    데코레이션을 활용하여서 route() 설정
 
