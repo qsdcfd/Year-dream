@@ -1,38 +1,65 @@
-#Flask:framwork, jsonify: call json, render_template : call template
-#routing and rendering 실습
-#route(): 안에 있는 것은 가고 싶은 링크이다.
-#routing : 사용자의 접속 경로를 지정하는 거
-#rendering:준비된 페이지를 제공하는 행위 or 페이지 내용 읽기
-from flask import Flask, jsonify, render_template 
-import requests #API사용하려고 할 때 부르는 라이브러리
+from flask import Flask, jsonify, render_template
+import requests
 
 
+app = Flask(__name__)
 
-app = Flask(__name__) 
-
-
-@app.route('/') #메인페이지 @:decorator
+@app.route('/') #decorator
 def index():
-  return render_template('index.html') #html내용 연결
+  return render_template('index.html')
+
+#routing: 사용자의 접속 경록 지정
 
 
-@app.route('/posts') #링크타고 가면 json파일 내용이 나온다
+#외부 api정보 가져오기
+
+@app.route('/posts')
 def show_posts():
-  response = requests.get("https://jsonplaceholder.typicode.com/posts") #외부 api 가져오기
-  to_serve = response.json() #json파일로 가져오기
+  response = requests.get('https://jsonplaceholder.typicode.com/posts')
+  to_serve = response.json()
   return jsonify(to_serve)
 
-  
+@app.route('/posts/<int:post_num>/comments')
+def show_comments(post_num):
+  response = requests.get('https://jsonplaceholder.typicode.com/posts/{}/comments'.format(post_num))
+  to_serve = response.json()
+  return jsonify(to_serve)
 
-@app.route('/todos') #마찬가지이다
-def show_todos():
-  return "This is todos"
-
-@app.route('/quote/<string:name>') #이름을 넣어서 그 이름을 출력하기
+@app.route('/quote/<string:name>')
 def show_quote(name=None):
+
   return "This is quote {}".format(name)
-  
+
+#rendering with template
+
+# data
+product_list = [
+  {
+    'product_id': 10000001,
+    'product_name': 'shoes',
+    'price': 12000,
+    'currency': 'KRW',
+  },
+  {
+    'product_id': 10000002,
+    'product_name': 'cap',
+    'price': 25.99,
+    'currency': 'USD',
+  },
+]
+
+# get all products
+@app.route('/products')
+def show_product_list():
+  result= {'items':product_list}
+  return render_template('products.html', items=result)
+
+# get product detail
+@app.route('/products/<int:product_id>')
+def show_product(product_id=None):
+  result = next(item for item in product_list if item['product_id'] == product_id)
+  return render_template('product.html', item=result)
+
 if __name__ =='__main__':
-  app.run(host='0.0.0.0', port=5000, debug=True)
-  #프로젝트 첫 시작시 pip install flask
-  #shell에서 app 시작: $python main.py
+  app.run(host='0.0.0.0',port=4000, debug=True)
+  

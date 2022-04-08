@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ item.product_name }}</title>
+  </head>
+  <body>
+    <h1>{{ item.product_name }}</h1>
+    <ul>
+      <li>Product id: {{ item.product_id }}</li>
+      {% if item.currency == 'KRW' %}
+      <li>Price : \ {{ item.price }}</li>
+      {% elif item.currency =='USD' %}
+      <li>Price : $ {{ item.price }}</li>
+      {% endif %}
+    </ul>
+    <p>{{ item }}</p>
+  </body>
+</html>

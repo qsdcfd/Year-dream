@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Products</title>
+  </head>
+  <body>
+    <h1>Product list</h1>
+    <ul>
+      {% for item in items['items'] %}
+      <li>
+        <a href="{{ url_for('.show_product', product_id=item.product_id) }}">{{ item['product_name'] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+      {% for item in items['items'] %}
+        <p>{{ item }}</p>
+      {% endfor %}
+  </body>
+</html>
