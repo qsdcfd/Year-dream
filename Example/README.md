@@ -40,9 +40,9 @@
 
 <br>
 
-### 2. [Flask 실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
+### 2. Flask 실습
 
-1. [정적routing실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
+1. 정적routing실습[https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main%20(1).py]
 
    데코레이션을 활용하여서 route() 설정
 
@@ -54,7 +54,7 @@
 
    추가적으로 이름을 삽입한 후에 그 이름과 함께 출력
 
-2. [rendering실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
+2. [rendering실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main%20(1).py)
 
    html문서를 미리 작성 후에 연동 시키기
 
