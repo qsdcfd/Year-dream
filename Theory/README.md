@@ -7,9 +7,9 @@
 
 3. [큐](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Queue)
 
-4. 해시
+4. [해시](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Hash)
 
-5. 정렬
+5. [정렬](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Sort)
 
 6. 트리
 
