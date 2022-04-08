@@ -60,7 +60,7 @@
 
    메인 페이지에 html문서 내용 띄우기
 
-3. 동적 라우팅 실습
+3. [동적 라우팅 실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main.py)
   
    신발 가격과 통화량에 대한 내용
    
