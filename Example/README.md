@@ -40,7 +40,7 @@
 
 <br>
 
-### 2. Flask 실습
+### 2. [Flask 실습](https://github.com/qsdcfd/Year-dream/tree/TIL/Example/Flask)
 
 1. [정적routing실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Flask/main%20(1).py)
 
@@ -59,4 +59,15 @@
    html문서를 미리 작성 후에 연동 시키기
 
    메인 페이지에 html문서 내용 띄우기
+
+3. 동적 라우팅 실습
+  
+   신발 가격과 통화량에 대한 내용
+   
+ ![image](https://user-images.githubusercontent.com/86671456/162491002-410d1bae-5a54-4ee6-9fb2-14363584feb9.png)
+
+![image](https://user-images.githubusercontent.com/86671456/162491116-e1a549f3-612f-4aa7-915d-9f95b4dabb36.png)
+
+![image](https://user-images.githubusercontent.com/86671456/162491141-4d9f013f-24bd-4deb-8bde-da0e3f380295.png)
+
 
