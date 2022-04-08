@@ -11,9 +11,9 @@
 
 5. [정렬](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Sort)
 
-6. 트리
+6. [트리](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Tree)
 
-7. 힙
+7. [힙](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Data_structure/Heap)
 
 <br>
 
