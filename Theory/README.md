@@ -22,8 +22,8 @@
 
 ### 알고리즘
 
-1. [기초 개념]
+1. [기초 개념](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Algorithm/Fundation)
 
-2. [시간복잡도]
+2. [시간복잡도](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Algorithm/Big%20O)
 
-3. [재귀적 알고리즘]
+3. [재귀적 알고리즘](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Algorithm/Recursive)
