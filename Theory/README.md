@@ -34,4 +34,4 @@
 
 ### 파이썬
 
-파이썬 300제와 점프 투 파이썬 문제를 푼 것들입니다.
+[파이썬 300제와 점프 투 파이썬 문제를 푼 것들입니다.](https://github.com/qsdcfd/Year-dream/tree/TIL/Theory/Python/Questions)
