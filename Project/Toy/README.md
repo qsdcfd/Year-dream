@@ -4,5 +4,5 @@
 
 1. 날짜: 2022.04.21
 2. 데이터셋: Boston housing.csv
-3. 
+
 [3. 정리 블로그](https://tpgus343.tistory.com/6)
