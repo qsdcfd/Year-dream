@@ -105,5 +105,3 @@
    - 파파고 API
    - 공공데이터 API
 
-![image](https://user-images.githubusercontent.com/86671456/162491141-4d9f013f-24bd-4deb-8bde-da0e3f380295.png)
-![image](https://user-images.githubusercontent.com/86671456/162491141-4d9f013f-24bd-4deb-8bde-da0e3f380295.png)
