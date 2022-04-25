@@ -73,4 +73,37 @@
 
 <br>
 
-### 3. [데이터 크롤링 실습]
+### 3. [데이터 크롤링 실습](https://github.com/qsdcfd/Year-dream/blob/TIL/Example/Crawler/04_python_crawler%20(2).ipynb)
+
+   웹 크롤링의 정의
+   
+   HTML, CSS의 활용
+   
+   API,requests, BeautifulSoup를 활용하여 데이터 크롤릴
+   
+   html.select()를 사용하여 데이터 전처리 
+   
+   Pandas를 이용하여 DataFrame 형성 및 Seaborn를 활용한 시각화
+   
+   사례
+   
+   - 드라마: 줄거리 추출
+   - 키워드별로 헤드라인 뽑기
+   - 하이퍼 링크 걸어서 추출
+   - 로또번호
+  
+  
+  동적 크롤링
+  
+  사례
+  
+  - 주가데이터 가져오기 및 Pandas, Numpy를 활용하여 DataFrame 구축 후 시계열 시각화
+  - 네이버 데이터랩 인기 검색어 크롤링
+
+   API 활용
+   
+   - 파파고 API
+   - 공공데이터 API
+
+![image](https://user-images.githubusercontent.com/86671456/162491141-4d9f013f-24bd-4deb-8bde-da0e3f380295.png)
+![image](https://user-images.githubusercontent.com/86671456/162491141-4d9f013f-24bd-4deb-8bde-da0e3f380295.png)
