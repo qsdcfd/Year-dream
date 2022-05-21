@@ -6,3 +6,12 @@
 - Linear Regression
 
 - Logistic Regression
+
+- KNN
+
+- Dicision Tree
+
+- Random Forest
+
+- Kmeans
+
