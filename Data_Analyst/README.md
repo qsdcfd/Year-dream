@@ -15,3 +15,10 @@
 
 - Kmeans
 
+- Times Series
+
+- NLP(상품 리뷰 분석)
+
+- GA데이터 적용
+
+-  
